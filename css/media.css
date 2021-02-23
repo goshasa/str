@@ -1,0 +1,21 @@
+@media(max-width: 575px){
+    nav{
+        position: initial;
+    }
+    .header{
+        padding: 100px 0 20px 0;
+        background-position: center;
+        min-height: 300px;
+        background-size: cover;
+        margin: 0;
+    }
+    .company img{
+        float: none;
+        margin: 0 5%;
+        width: 90%;
+    }
+    .company p{
+        padding: 0 8px;
+        text-align:left;
+    }
+}

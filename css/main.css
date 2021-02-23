@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+nav{
+    background: rgba(0, 0, 0, 0.644);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+nav a{
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: all 0.6s;
+}
+nav a:hover{
+    background: #fff;
+    color: #000;
+    transition: all 0.6s;
+}
+.header{
+    background-image: url(../img/polygons.png);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+    background: #000;
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition:all 0.6s;
+}
+.header a:hover{
+    background:#fff ;
+    color: #000;
+    transition:all 0.6s;
+}
+.company{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 40px 0;
+}
+.company h2{
+    text-align: center;
+}
+.company p{
+    text-align: justify;
+}
+.company img{
+    float: right;
+    width: 400px;
+    margin: 0 30px 30px 30px;
+}
+.team{
+    text-align: center;
+}
+.team__card{
+    display:inline-block;
+    width: 20%;
+    margin: 20px 10px;
+    padding: 20px;
+    text-align:left;
+    box-shadow: 0 2px 6px gray;
+    min-width: 300px;
+}
+.team__card img{
+    width: 100%;
+    height: 520px;
+}
+.team__card a{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.6s;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 0;
+    border-radius: 5px;
+}
+.team__card a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: all 0.6s;
+}
+.money{
+    text-align: center;
+    background-color: grey;
+    padding: 50px 0;
+}
+.money ul{
+    display: inline-block;
+    width: 30%;
+    background-color: #fff;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    vertical-align: middle;
+    box-shadow: 0 0 10px black;
+    min-width: 300px;
+}
+.bazovy {
+    background-color:#000 ;
+    color: #fff;
+    padding: 32px 0;
+    font-size: 24px;
+}
+li{
+    border-bottom: 1px solid grey;
+    padding: 16px;
+}
+.order {
+    background: rgb(207, 206, 206);
+}
+.order a{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    transition: all 0.6s;
+}
+.premium{
+    padding: 36px 0;
+    font-size: 32px;
+    background-color: aqua;
+}
+.order a:hover{
+    transition: all 0.6s;
+    background: #fff;
+    color: #000;
+}
+.contacts{
+    padding: 50px 0;
+    text-align: center;
+    background: rgb(228, 227, 227);
+}
+.contacts__info{
+    text-align:left;
+    margin: 16px 0 16px 5% ;
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    background-size: 18px 18px;
+    background-position:left center;
+}
+.contacts-adres{
+    background-image: url(../img/address.png);
+}
+.contacts-tel{
+    background-image: url(../img/phone.png);
+}
+.contacts-mail{
+    background-image: url(../img/mail.png);
+}
+input{
+    text-align: left;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid grey;
+    transition: all 0.6s;
+}
+input:focus{
+    box-shadow: 0 0 15px brown;
+}
+button{
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    transition: all 0.6s;
+    font-size: 20px;
+    border: none;
+    padding: 10px 16px;
+}
+button:hover{
+    background: white;
+    color: #000;
+}
+.footer{
+    background: #000;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
